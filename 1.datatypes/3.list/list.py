@@ -18,22 +18,14 @@ print("\nFirst value of list is : ")
 print(data_list[0])
 
 print("\nLast value of index is : ")
-print(data_list[-1])
-
-print('\nAfter adding new data_list in list : ')
-data_list.append('test')
-print(data_list)
-
-print('\nAfter removing  data_list from list : ')
-data_list.remove('sam')
-print(data_list)
+print(data_list[-1]) 
 
 print("\nCount of a data_list in a list : ")
 print( data_list.count('ram') )
 
 print("\nMake copy of list : ")
-data_list_new = data_list.copy()
-data_list_new2 = data_list
+data_list_new = data_list.copy() # this will make a copy
+data_list_new2 = data_list # pint same list object
 print(data_list_new)
 print(data_list_new2)
 
