@@ -1,40 +1,50 @@
-data = ['mike', 'john', 'sam',  'ram', 'shyam']
+#  List is Mutable  we can change it or modify it any time
 
-print("\nList data items are : ")
-print(data)
+# List items are ordered, changeable, and allow duplicate values.
+
+#  A list can contain different data types: list1 = ["abc", 34, True, 40, "male"]
+
+
+
+data_list = ['mike', 'john', 'sam',  'ram', 'shyam']
+
+print("\nList data_list items are : ")
+print(data_list)
 
 print("\nRam Index Number is  : ")
-print(data.index('ram'))
+print(data_list.index('ram'))
 
-print("\n First value of list is : ")
-print(data[0])
+print("\nFirst value of list is : ")
+print(data_list[0])
 
-print("\n Last value of index is : ")
-print(data[-1])
+print("\nLast value of index is : ")
+print(data_list[-1])
 
-print('\n After adding new data in list : ')
-data.append('test')
-print(data)
+print('\nAfter adding new data_list in list : ')
+data_list.append('test')
+print(data_list)
 
-print('\n After removing  data from list : ')
-data.remove('sam')
-print(data)
+print('\nAfter removing  data_list from list : ')
+data_list.remove('sam')
+print(data_list)
 
-print("\n Count of a data in a list : ")
-print( data.count('ram') )
+print("\nCount of a data_list in a list : ")
+print( data_list.count('ram') )
 
-print("\n Make copy of list : ")
-data_new = data.copy()
-print(data_new)
+print("\nMake copy of list : ")
+data_list_new = data_list.copy()
+data_list_new2 = data_list
+print(data_list_new)
+print(data_list_new2)
 
-print("\n Reverse a list : ")
-data_new.reverse()
-print(data_new)
-print(data_new[::-1])
+print("\nReverse a list : ")
+data_list_new.reverse()
+print(data_list_new)
+print(data_list_new[::-1])
 
-print("\n Sort list in ascending order : ")
-data_new.sort()
-print(data_new)
+print("\nSort list in ascending order : ")
+data_list_new.sort()
+print(data_list_new)
 
 
 
