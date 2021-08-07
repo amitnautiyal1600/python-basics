@@ -8,16 +8,15 @@ out_of_guess = False
 print("WELCOME!!")
 print('Guess the answer to win. Toatal guess Count : ' + str(guess_limit) + "\n")
 
-while guess != answer and not(out_of_guess) : 
-    if guess_count <= guess_limit : 
-        guess = input( question + " ( Guess " + str(guess_count) + " ) : ")
+while guess != answer and not (out_of_guess):
+    if guess_count <= guess_limit:
+        guess = input(question + " ( Guess " + str(guess_count) + " ) : ")
         guess = guess.lower()
         guess_count += 1
-    else :
+    else:
         out_of_guess = True
 
 if out_of_guess:
     print(' You Loose !! 👎🏻')
-else :
+else:
     print("You Won !! 👍")
-    

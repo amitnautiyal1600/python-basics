@@ -3,22 +3,22 @@ data_string = "my name is Amit Nautiyal"
 
 #  capitalize()	Converts the first character to upper case
 
-new_string  = data_string.capitalize()
+new_string = data_string.capitalize()
 
-print( new_string )
+print(new_string)
 print('\n')
 
 #  title()	Converts the every first character to upper case
 
-new_string  = data_string.title()
+new_string = data_string.title()
 
-print( new_string )
+print(new_string)
 print('\n')
 
-# casefold()	Converts string into lower case
+# Converts string into lower case
 
-new_string  = data_string.casefold()
-print( new_string )
+new_string = data_string.casefold()
+print(new_string)
 print('\n')
 
 # center()	Returns a centered string

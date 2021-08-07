@@ -1,7 +1,7 @@
 class Question:
-        def __init__(self, prompt, answer):
-                self.prompt = prompt
-                self.answer = answer
+    def __init__(self, prompt, answer):
+        self.prompt = prompt
+        self.answer = answer
 
 
 questions_prompts = [
@@ -18,12 +18,14 @@ questions = [
     Question(questions_prompts[3], 'd'),
 ]
 
+
 def run_test(questions):
     score = 0
-    for question in questions :
-        answer =  input(question.prompt)
+    for question in questions:
+        answer = input(question.prompt)
         if answer == question.answer:
-            score +=1
-    print( "You got : "+ str(score) + "/"+ str(len(questions)) + " correct")
+            score += 1
+    print("You got : " + str(score) + "/" + str(len(questions)) + " correct")
+
 
 run_test(questions)

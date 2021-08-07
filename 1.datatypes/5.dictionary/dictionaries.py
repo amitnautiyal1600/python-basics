@@ -1,4 +1,4 @@
-# store data in kew pair
+# store data in key pair
 
 monthFullName = {
     "jan" : "January",
@@ -16,12 +16,13 @@ monthFullName = {
 }
 
 print(monthFullName["nov"])
+print(monthFullName["nov"])
 
-## use pre built function
+# use pre built function
 
+
+# it is useful to handle if key not exist
 print(monthFullName.get('nov'))
-
-## it is usefull to handle if key not exist
 print(monthFullName.get('test'))
 print(monthFullName.get('test', 'Note a Valid key'))
 
