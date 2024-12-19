@@ -1,5 +1,6 @@
 import random
-import hangmandata
+from games.module import hangmandata
+
 chosen_fruit = random.choice(hangmandata.fruits).lower()
 
 print(f"Selected fruit : {chosen_fruit.lower()}")
